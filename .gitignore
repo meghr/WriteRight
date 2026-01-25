@@ -1,0 +1,26 @@
+# Android Studio
+*.iml
+.gradle/
+local.properties
+.idea/
+*.hprof
+
+# Build outputs
+/build/
+/app/build/
+/app/release/
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+
+# Secrets
+secrets.properties
+google-services.json
+
+# Mac
+.DS_Store
+
+# API Keys (NEVER commit!)
+**/secrets/
